@@ -71,7 +71,7 @@ static BOOL _groupModifing = NO;
     
     CGRect rect = CGRectMake(0, 0, iconSize, iconSize);
     CGContextRef context = UIGraphicsGetCurrentContext();
-    UIGraphicsPushContext(context);
+    //UIGraphicsPushContext(context);
     UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0.0);
     
     // draw icon
